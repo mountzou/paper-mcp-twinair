@@ -1,0 +1,102 @@
+[
+    {
+      "question_id": "Q01",
+      "category_id": "T01",
+      "question": "What is the temperature for sensor urn:ngsi-ld:hwsensors:17038 now?"
+    },
+    {
+      "question_id": "Q02",
+      "category_id": "T01",
+      "question": "Give me the latest relative humidity reported by urn:ngsi-ld:hwsensors:17038."
+    },
+    {
+      "question_id": "Q03",
+      "category_id": "T01",
+      "question": "Check the current CO2 concentration for sensor 17038."
+    },
+    {
+      "question_id": "Q04",
+      "category_id": "T01",
+      "question": "How noisy is the environment around urn:ngsi-ld:hwsensors:17038 right now?"
+    },
+    {
+      "question_id": "Q05",
+      "category_id": "T01",
+      "question": "What does sensor urn:ngsi-ld:hwsensors:17038 currently report for PM2.5?"
+    },
+    {
+      "question_id": "Q06",
+      "category_id": "T01",
+      "question": "Read the latest PM10 value from the hardware sensor with ID 17038."
+    },
+    {
+      "question_id": "Q07",
+      "category_id": "T01",
+      "question": "Is the TVOC level currently available for urn:ngsi-ld:hwsensors:17038?"
+    },
+    {
+      "question_id": "Q08",
+      "category_id": "T01",
+      "question": "What is the most recent formaldehyde measurement from sensor urn:ngsi-ld:hwsensors:17038?"
+    },
+    {
+      "question_id": "Q09",
+      "category_id": "T01",
+      "question": "Report the latest barometric pressure measured by sensor 17038."
+    },
+    {
+      "question_id": "Q10",
+      "category_id": "T01",
+      "question": "How much light is sensor urn:ngsi-ld:hwsensors:17038 detecting at the moment?"
+    },
+    {
+      "question_id": "Q11",
+      "category_id": "T01",
+      "question": "What is the battery status of urn:ngsi-ld:hwsensors:17038?"
+    },
+    {
+      "question_id": "Q12",
+      "category_id": "T01",
+      "question": "What is the current signal strength of the hardware sensor 17038?"
+    },
+    {
+      "question_id": "Q13",
+      "category_id": "T01",
+      "question": "Summarize the current indoor air quality readings from sensor urn:ngsi-ld:hwsensors:17038."
+    },
+    {
+      "question_id": "Q14",
+      "category_id": "T01",
+      "question": "Give me a quick current-state snapshot for sensor urn:ngsi-ld:hwsensors:17038."
+    },
+    {
+      "question_id": "Q15",
+      "category_id": "T01",
+      "question": "When was sensor urn:ngsi-ld:hwsensors:17038 last observed, and what are its latest readings?"
+    },
+    {
+      "question_id": "Q16",
+      "category_id": "T01",
+      "question": "Is sensor urn:ngsi-ld:hwsensors:17038 currently active?"
+    },
+    {
+      "question_id": "Q17",
+      "category_id": "T01",
+      "question": "Show the current environmental conditions measured by sensor 17038."
+    },
+    {
+      "question_id": "Q18",
+      "category_id": "T01",
+      "question": "What is the latest air temperature, humidity, and CO2 from urn:ngsi-ld:hwsensors:17038?"
+    },
+    {
+      "question_id": "Q19",
+      "category_id": "T01",
+      "question": "Get the real-time measurements for hardware sensor urn:ngsi-ld:hwsensors:17038."
+    },
+    {
+      "question_id": "Q20",
+      "category_id": "T01",
+      "question": "What is sensor 17038 seeing right now?"
+    }
+  ]

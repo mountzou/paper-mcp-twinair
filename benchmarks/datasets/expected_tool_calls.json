@@ -1,0 +1,248 @@
+[
+    {
+      "question_id": "Q01",
+      "expected_tool": "get_current_sensor",
+      "expected_params": {
+        "entityId": "urn:ngsi-ld:hwsensors:17038",
+        "type": "hwsensors",
+        "raw": false
+      },
+      "expected_attr_in_answer": "airTemperature",
+      "requires_entity_id_normalization": false
+    },
+    {
+      "question_id": "Q02",
+      "expected_tool": "get_current_sensor",
+      "expected_params": {
+        "entityId": "urn:ngsi-ld:hwsensors:17038",
+        "type": "hwsensors",
+        "raw": false
+      },
+      "expected_attr_in_answer": "relativeHumidity",
+      "requires_entity_id_normalization": false
+    },
+    {
+      "question_id": "Q03",
+      "expected_tool": "get_current_sensor",
+      "expected_params": {
+        "entityId": "urn:ngsi-ld:hwsensors:17038",
+        "type": "hwsensors",
+        "raw": false
+      },
+      "expected_attr_in_answer": "co2",
+      "requires_entity_id_normalization": true
+    },
+    {
+      "question_id": "Q04",
+      "expected_tool": "get_current_sensor",
+      "expected_params": {
+        "entityId": "urn:ngsi-ld:hwsensors:17038",
+        "type": "hwsensors",
+        "raw": false
+      },
+      "expected_attr_in_answer": "noiseLevel",
+      "requires_entity_id_normalization": false
+    },
+    {
+      "question_id": "Q05",
+      "expected_tool": "get_current_sensor",
+      "expected_params": {
+        "entityId": "urn:ngsi-ld:hwsensors:17038",
+        "type": "hwsensors",
+        "raw": false
+      },
+      "expected_attr_in_answer": "pm25",
+      "requires_entity_id_normalization": false
+    },
+    {
+      "question_id": "Q06",
+      "expected_tool": "get_current_sensor",
+      "expected_params": {
+        "entityId": "urn:ngsi-ld:hwsensors:17038",
+        "type": "hwsensors",
+        "raw": false
+      },
+      "expected_attr_in_answer": "pm10",
+      "requires_entity_id_normalization": true
+    },
+    {
+      "question_id": "Q07",
+      "expected_tool": "get_current_sensor",
+      "expected_params": {
+        "entityId": "urn:ngsi-ld:hwsensors:17038",
+        "type": "hwsensors",
+        "raw": false
+      },
+      "expected_attr_in_answer": "tvoc",
+      "requires_entity_id_normalization": false
+    },
+    {
+      "question_id": "Q08",
+      "expected_tool": "get_current_sensor",
+      "expected_params": {
+        "entityId": "urn:ngsi-ld:hwsensors:17038",
+        "type": "hwsensors",
+        "raw": false
+      },
+      "expected_attr_in_answer": "formaldehyde",
+      "requires_entity_id_normalization": false
+    },
+    {
+      "question_id": "Q09",
+      "expected_tool": "get_current_sensor",
+      "expected_params": {
+        "entityId": "urn:ngsi-ld:hwsensors:17038",
+        "type": "hwsensors",
+        "raw": false
+      },
+      "expected_attr_in_answer": "barometricPressure",
+      "requires_entity_id_normalization": true
+    },
+    {
+      "question_id": "Q10",
+      "expected_tool": "get_current_sensor",
+      "expected_params": {
+        "entityId": "urn:ngsi-ld:hwsensors:17038",
+        "type": "hwsensors",
+        "raw": false
+      },
+      "expected_attr_in_answer": "light",
+      "requires_entity_id_normalization": false
+    },
+    {
+      "question_id": "Q11",
+      "expected_tool": "get_current_sensor",
+      "expected_params": {
+        "entityId": "urn:ngsi-ld:hwsensors:17038",
+        "type": "hwsensors",
+        "raw": false
+      },
+      "expected_attr_in_answer": "battery",
+      "requires_entity_id_normalization": false
+    },
+    {
+      "question_id": "Q12",
+      "expected_tool": "get_current_sensor",
+      "expected_params": {
+        "entityId": "urn:ngsi-ld:hwsensors:17038",
+        "type": "hwsensors",
+        "raw": false
+      },
+      "expected_attr_in_answer": "rssi",
+      "requires_entity_id_normalization": true
+    },
+    {
+      "question_id": "Q13",
+      "expected_tool": "get_current_sensor",
+      "expected_params": {
+        "entityId": "urn:ngsi-ld:hwsensors:17038",
+        "type": "hwsensors",
+        "raw": false
+      },
+      "expected_attrs_in_answer": [
+        "co2",
+        "pm25",
+        "pm10",
+        "tvoc",
+        "formaldehyde"
+      ],
+      "requires_entity_id_normalization": false
+    },
+    {
+      "question_id": "Q14",
+      "expected_tool": "get_current_sensor",
+      "expected_params": {
+        "entityId": "urn:ngsi-ld:hwsensors:17038",
+        "type": "hwsensors",
+        "raw": false
+      },
+      "expected_behavior": "current_state_snapshot",
+      "expected_attrs_in_answer": [
+        "airTemperature",
+        "relativeHumidity",
+        "co2",
+        "pm25",
+        "battery"
+      ],
+      "requires_entity_id_normalization": false
+    },
+    {
+      "question_id": "Q15",
+      "expected_tool": "get_current_sensor",
+      "expected_params": {
+        "entityId": "urn:ngsi-ld:hwsensors:17038",
+        "type": "hwsensors",
+        "raw": false
+      },
+      "expected_fields_in_answer": [
+        "observedAt",
+        "measurements"
+      ],
+      "requires_entity_id_normalization": false
+    },
+    {
+      "question_id": "Q16",
+      "expected_tool": "get_current_sensor",
+      "expected_params": {
+        "entityId": "urn:ngsi-ld:hwsensors:17038",
+        "type": "hwsensors",
+        "raw": false
+      },
+      "expected_behavior": "infer_activity_from_recent_observedAt",
+      "requires_entity_id_normalization": false
+    },
+    {
+      "question_id": "Q17",
+      "expected_tool": "get_current_sensor",
+      "expected_params": {
+        "entityId": "urn:ngsi-ld:hwsensors:17038",
+        "type": "hwsensors",
+        "raw": false
+      },
+      "expected_attrs_in_answer": [
+        "airTemperature",
+        "relativeHumidity",
+        "barometricPressure",
+        "light",
+        "noiseLevel"
+      ],
+      "requires_entity_id_normalization": true
+    },
+    {
+      "question_id": "Q18",
+      "expected_tool": "get_current_sensor",
+      "expected_params": {
+        "entityId": "urn:ngsi-ld:hwsensors:17038",
+        "type": "hwsensors",
+        "raw": false
+      },
+      "expected_attrs_in_answer": [
+        "airTemperature",
+        "relativeHumidity",
+        "co2"
+      ],
+      "requires_entity_id_normalization": false
+    },
+    {
+      "question_id": "Q19",
+      "expected_tool": "get_current_sensor",
+      "expected_params": {
+        "entityId": "urn:ngsi-ld:hwsensors:17038",
+        "type": "hwsensors",
+        "raw": false
+      },
+      "expected_behavior": "current_state_snapshot",
+      "requires_entity_id_normalization": false
+    },
+    {
+      "question_id": "Q20",
+      "expected_tool": "get_current_sensor",
+      "expected_params": {
+        "entityId": "urn:ngsi-ld:hwsensors:17038",
+        "type": "hwsensors",
+        "raw": false
+      },
+      "expected_behavior": "current_state_summary",
+      "requires_entity_id_normalization": true
+    }
+  ]

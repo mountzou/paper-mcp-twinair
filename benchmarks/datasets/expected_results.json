@@ -1,0 +1,198 @@
+[
+    {
+      "question_id": "Q01",
+      "result_checks": {
+        "must_include_entity_id": "urn:ngsi-ld:hwsensors:17038",
+        "must_include_attrs": ["airTemperature"],
+        "must_include_observedAt": true,
+        "must_include_unit": true,
+        "must_be_current_state": true
+      }
+    },
+    {
+      "question_id": "Q02",
+      "result_checks": {
+        "must_include_entity_id": "urn:ngsi-ld:hwsensors:17038",
+        "must_include_attrs": ["relativeHumidity"],
+        "must_include_observedAt": true,
+        "must_include_unit": true,
+        "must_be_current_state": true
+      }
+    },
+    {
+      "question_id": "Q03",
+      "result_checks": {
+        "must_include_entity_id": "urn:ngsi-ld:hwsensors:17038",
+        "must_include_attrs": ["co2"],
+        "must_include_observedAt": true,
+        "must_include_unit": true,
+        "must_be_current_state": true
+      }
+    },
+    {
+      "question_id": "Q04",
+      "result_checks": {
+        "must_include_entity_id": "urn:ngsi-ld:hwsensors:17038",
+        "must_include_attrs": ["noiseLevel"],
+        "must_include_observedAt": true,
+        "must_include_unit": true,
+        "must_be_current_state": true
+      }
+    },
+    {
+      "question_id": "Q05",
+      "result_checks": {
+        "must_include_entity_id": "urn:ngsi-ld:hwsensors:17038",
+        "must_include_attrs": ["pm25"],
+        "must_include_observedAt": true,
+        "must_include_unit": true,
+        "must_be_current_state": true
+      }
+    },
+    {
+      "question_id": "Q06",
+      "result_checks": {
+        "must_include_entity_id": "urn:ngsi-ld:hwsensors:17038",
+        "must_include_attrs": ["pm10"],
+        "must_include_observedAt": true,
+        "must_include_unit": true,
+        "must_be_current_state": true
+      }
+    },
+    {
+      "question_id": "Q07",
+      "result_checks": {
+        "must_include_entity_id": "urn:ngsi-ld:hwsensors:17038",
+        "must_include_attrs": ["tvoc"],
+        "must_include_observedAt": true,
+        "must_include_unit": true,
+        "must_be_current_state": true
+      }
+    },
+    {
+      "question_id": "Q08",
+      "result_checks": {
+        "must_include_entity_id": "urn:ngsi-ld:hwsensors:17038",
+        "must_include_attrs": ["formaldehyde"],
+        "must_include_observedAt": true,
+        "must_include_unit": true,
+        "must_be_current_state": true
+      }
+    },
+    {
+      "question_id": "Q09",
+      "result_checks": {
+        "must_include_entity_id": "urn:ngsi-ld:hwsensors:17038",
+        "must_include_attrs": ["barometricPressure"],
+        "must_include_observedAt": true,
+        "must_include_unit": true,
+        "must_be_current_state": true
+      }
+    },
+    {
+      "question_id": "Q10",
+      "result_checks": {
+        "must_include_entity_id": "urn:ngsi-ld:hwsensors:17038",
+        "must_include_attrs": ["light"],
+        "must_include_observedAt": true,
+        "must_include_unit": true,
+        "must_be_current_state": true
+      }
+    },
+    {
+      "question_id": "Q11",
+      "result_checks": {
+        "must_include_entity_id": "urn:ngsi-ld:hwsensors:17038",
+        "must_include_attrs": ["battery"],
+        "must_include_observedAt": true,
+        "must_include_unit": true,
+        "must_be_current_state": true
+      }
+    },
+    {
+      "question_id": "Q12",
+      "result_checks": {
+        "must_include_entity_id": "urn:ngsi-ld:hwsensors:17038",
+        "must_include_attrs": ["rssi"],
+        "must_include_observedAt": true,
+        "must_include_unit": true,
+        "must_be_current_state": true
+      }
+    },
+    {
+      "question_id": "Q13",
+      "result_checks": {
+        "must_include_entity_id": "urn:ngsi-ld:hwsensors:17038",
+        "must_include_attrs": ["co2", "pm25", "pm10", "tvoc", "formaldehyde"],
+        "must_include_observedAt": true,
+        "must_include_unit": true,
+        "must_be_current_state": true
+      }
+    },
+    {
+      "question_id": "Q14",
+      "result_checks": {
+        "must_include_entity_id": "urn:ngsi-ld:hwsensors:17038",
+        "must_include_attrs": ["airTemperature", "relativeHumidity", "co2", "pm25", "battery"],
+        "must_include_observedAt": true,
+        "must_include_unit": true,
+        "must_be_current_state": true
+      }
+    },
+    {
+      "question_id": "Q15",
+      "result_checks": {
+        "must_include_entity_id": "urn:ngsi-ld:hwsensors:17038",
+        "must_include_fields": ["observedAt", "measurements"],
+        "must_include_observedAt": true,
+        "must_be_current_state": true
+      }
+    },
+    {
+      "question_id": "Q16",
+      "result_checks": {
+        "must_include_entity_id": "urn:ngsi-ld:hwsensors:17038",
+        "must_include_observedAt": true,
+        "must_be_current_state": true,
+        "expected_inference": "sensor_activity_from_observedAt"
+      }
+    },
+    {
+      "question_id": "Q17",
+      "result_checks": {
+        "must_include_entity_id": "urn:ngsi-ld:hwsensors:17038",
+        "must_include_attrs": ["airTemperature", "relativeHumidity", "barometricPressure", "light", "noiseLevel"],
+        "must_include_observedAt": true,
+        "must_include_unit": true,
+        "must_be_current_state": true
+      }
+    },
+    {
+      "question_id": "Q18",
+      "result_checks": {
+        "must_include_entity_id": "urn:ngsi-ld:hwsensors:17038",
+        "must_include_attrs": ["airTemperature", "relativeHumidity", "co2"],
+        "must_include_observedAt": true,
+        "must_include_unit": true,
+        "must_be_current_state": true
+      }
+    },
+    {
+      "question_id": "Q19",
+      "result_checks": {
+        "must_include_entity_id": "urn:ngsi-ld:hwsensors:17038",
+        "must_include_fields": ["measurements"],
+        "must_include_observedAt": true,
+        "must_be_current_state": true
+      }
+    },
+    {
+      "question_id": "Q20",
+      "result_checks": {
+        "must_include_entity_id": "urn:ngsi-ld:hwsensors:17038",
+        "must_include_fields": ["measurements"],
+        "must_include_observedAt": true,
+        "must_be_current_state": true
+      }
+    }
+  ]
