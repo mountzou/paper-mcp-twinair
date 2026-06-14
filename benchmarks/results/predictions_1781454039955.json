@@ -1,0 +1,242 @@
+[
+  {
+    "question_id": "Q01",
+    "category_id": "T01",
+    "question": "What is the temperature for sensor urn:ngsi-ld:hwsensors:17038 now?",
+    "predicted_tool": "get_current_sensor",
+    "predicted_params": {
+      "entityId": "urn:ngsi-ld:hwsensors:17038",
+      "type": "hwsensors",
+      "raw": false
+    },
+    "response_id": "resp_00b1a23fe82f60f5006a2ed4bed134819cb27179b146733771"
+  },
+  {
+    "question_id": "Q02",
+    "category_id": "T01",
+    "question": "Give me the latest relative humidity reported by urn:ngsi-ld:hwsensors:17038.",
+    "predicted_tool": "get_current_sensor",
+    "predicted_params": {
+      "entityId": "urn:ngsi-ld:hwsensors:17038",
+      "type": "hwsensors",
+      "raw": false
+    },
+    "response_id": "resp_0ba335af43d4e5eb006a2ed4c0d354819f912de6806ca72cbf"
+  },
+  {
+    "question_id": "Q03",
+    "category_id": "T01",
+    "question": "Check the current CO2 concentration for sensor 17038.",
+    "predicted_tool": "get_current_sensor",
+    "predicted_params": {
+      "entityId": "urn:ngsi-ld:hwsensors:17038",
+      "type": "hwsensors",
+      "raw": false
+    },
+    "response_id": "resp_0aa1ac5183f4ef18006a2ed4c2254481a387360a5514c19e08"
+  },
+  {
+    "question_id": "Q04",
+    "category_id": "T01",
+    "question": "How noisy is the environment around urn:ngsi-ld:hwsensors:17038 right now?",
+    "predicted_tool": "get_current_sensor",
+    "predicted_params": {
+      "entityId": "urn:ngsi-ld:hwsensors:17038",
+      "type": "hwsensors",
+      "raw": false
+    },
+    "response_id": "resp_0e0d3837d39ad62f006a2ed4c3708c81a195706054de984edf"
+  },
+  {
+    "question_id": "Q05",
+    "category_id": "T01",
+    "question": "What does sensor urn:ngsi-ld:hwsensors:17038 currently report for PM2.5?",
+    "predicted_tool": "get_current_sensor",
+    "predicted_params": {
+      "entityId": "urn:ngsi-ld:hwsensors:17038",
+      "type": "hwsensors",
+      "raw": false
+    },
+    "response_id": "resp_05358cb697125884006a2ed4c479c4819f9040e77eb687ae21"
+  },
+  {
+    "question_id": "Q06",
+    "category_id": "T01",
+    "question": "Read the latest PM10 value from the hardware sensor with ID 17038.",
+    "predicted_tool": "get_current_sensor",
+    "predicted_params": {
+      "entityId": "urn:ngsi-ld:hwsensors:17038",
+      "type": "hwsensors",
+      "raw": false
+    },
+    "response_id": "resp_03c8887772cd2077006a2ed4c5b79881a3a57ad743b68554d5"
+  },
+  {
+    "question_id": "Q07",
+    "category_id": "T01",
+    "question": "Is the TVOC level currently available for urn:ngsi-ld:hwsensors:17038?",
+    "predicted_tool": "get_current_sensor",
+    "predicted_params": {
+      "entityId": "urn:ngsi-ld:hwsensors:17038",
+      "type": "hwsensors",
+      "raw": false
+    },
+    "response_id": "resp_0cfa1abbdcdcf41a006a2ed4c6ce64819d8d1982a9b9f694f0"
+  },
+  {
+    "question_id": "Q08",
+    "category_id": "T01",
+    "question": "What is the most recent formaldehyde measurement from sensor urn:ngsi-ld:hwsensors:17038?",
+    "predicted_tool": "get_current_sensor",
+    "predicted_params": {
+      "entityId": "urn:ngsi-ld:hwsensors:17038",
+      "type": "hwsensors",
+      "raw": false
+    },
+    "response_id": "resp_06f903309ee01c57006a2ed4c7cd408191a7a8d178f9b750fe"
+  },
+  {
+    "question_id": "Q09",
+    "category_id": "T01",
+    "question": "Report the latest barometric pressure measured by sensor 17038.",
+    "predicted_tool": "get_current_sensor",
+    "predicted_params": {
+      "entityId": "urn:ngsi-ld:hwsensors:17038",
+      "type": "hwsensors",
+      "raw": false
+    },
+    "response_id": "resp_0e008651ec8b99f8006a2ed4c96b08819f866621d8671e0f5b"
+  },
+  {
+    "question_id": "Q10",
+    "category_id": "T01",
+    "question": "How much light is sensor urn:ngsi-ld:hwsensors:17038 detecting at the moment?",
+    "predicted_tool": "get_current_sensor",
+    "predicted_params": {
+      "entityId": "urn:ngsi-ld:hwsensors:17038",
+      "type": "hwsensors",
+      "raw": false
+    },
+    "response_id": "resp_0987050cd423796d006a2ed4cabc7c8191b200a194c7702b02"
+  },
+  {
+    "question_id": "Q11",
+    "category_id": "T01",
+    "question": "What is the battery status of urn:ngsi-ld:hwsensors:17038?",
+    "predicted_tool": "get_current_sensor",
+    "predicted_params": {
+      "entityId": "urn:ngsi-ld:hwsensors:17038",
+      "type": "hwsensors",
+      "raw": false
+    },
+    "response_id": "resp_039626847ca17e63006a2ed4cc4ef4819d8b56fdd9f6dc2e37"
+  },
+  {
+    "question_id": "Q12",
+    "category_id": "T01",
+    "question": "What is the current signal strength of the hardware sensor 17038?",
+    "predicted_tool": "get_current_sensor",
+    "predicted_params": {
+      "entityId": "urn:ngsi-ld:hwsensors:17038",
+      "type": "hwsensors",
+      "raw": false
+    },
+    "response_id": "resp_06c782e87aa4d2a9006a2ed4cde4a8819fb0058197310d069e"
+  },
+  {
+    "question_id": "Q13",
+    "category_id": "T01",
+    "question": "Summarize the current indoor air quality readings from sensor urn:ngsi-ld:hwsensors:17038.",
+    "predicted_tool": "get_current_sensor",
+    "predicted_params": {
+      "entityId": "urn:ngsi-ld:hwsensors:17038",
+      "type": "hwsensors",
+      "raw": false
+    },
+    "response_id": "resp_033103fff3ae3adf006a2ed4cee91c819d97d341fdbe9a04be"
+  },
+  {
+    "question_id": "Q14",
+    "category_id": "T01",
+    "question": "Give me a quick current-state snapshot for sensor urn:ngsi-ld:hwsensors:17038.",
+    "predicted_tool": "get_current_sensor",
+    "predicted_params": {
+      "entityId": "urn:ngsi-ld:hwsensors:17038",
+      "type": "hwsensors",
+      "raw": false
+    },
+    "response_id": "resp_0901ff5309467509006a2ed4cff66081a28b9a79d1c4982cfd"
+  },
+  {
+    "question_id": "Q15",
+    "category_id": "T01",
+    "question": "When was sensor urn:ngsi-ld:hwsensors:17038 last observed, and what are its latest readings?",
+    "predicted_tool": "get_current_sensor",
+    "predicted_params": {
+      "entityId": "urn:ngsi-ld:hwsensors:17038",
+      "type": "hwsensors",
+      "raw": false
+    },
+    "response_id": "resp_0df0c74020d02897006a2ed4d10c9c81a1b19178c7044c115b"
+  },
+  {
+    "question_id": "Q16",
+    "category_id": "T01",
+    "question": "Is sensor urn:ngsi-ld:hwsensors:17038 currently active?",
+    "predicted_tool": "get_current_sensor",
+    "predicted_params": {
+      "entityId": "urn:ngsi-ld:hwsensors:17038",
+      "type": "hwsensors",
+      "raw": false
+    },
+    "response_id": "resp_030fbb7c5bc7895e006a2ed4d2f9d4819180f0efca5b1632db"
+  },
+  {
+    "question_id": "Q17",
+    "category_id": "T01",
+    "question": "Show the current environmental conditions measured by sensor 17038.",
+    "predicted_tool": "get_current_sensor",
+    "predicted_params": {
+      "entityId": "urn:ngsi-ld:hwsensors:17038",
+      "type": "hwsensors",
+      "raw": false
+    },
+    "response_id": "resp_04d8174cde228177006a2ed4d3e6f0819d8c3bab4f66bf7a1e"
+  },
+  {
+    "question_id": "Q18",
+    "category_id": "T01",
+    "question": "What is the latest air temperature, humidity, and CO2 from urn:ngsi-ld:hwsensors:17038?",
+    "predicted_tool": "get_current_sensor",
+    "predicted_params": {
+      "entityId": "urn:ngsi-ld:hwsensors:17038",
+      "type": "hwsensors",
+      "raw": false
+    },
+    "response_id": "resp_081c023b3f6a7342006a2ed4d54544819cad4a0472bf587470"
+  },
+  {
+    "question_id": "Q19",
+    "category_id": "T01",
+    "question": "Get the real-time measurements for hardware sensor urn:ngsi-ld:hwsensors:17038.",
+    "predicted_tool": "get_current_sensor",
+    "predicted_params": {
+      "entityId": "urn:ngsi-ld:hwsensors:17038",
+      "type": "hwsensors",
+      "raw": false
+    },
+    "response_id": "resp_010e211d49ca499c006a2ed4d6205481918c48417983af7db7"
+  },
+  {
+    "question_id": "Q20",
+    "category_id": "T01",
+    "question": "What is sensor 17038 seeing right now?",
+    "predicted_tool": "get_current_sensor",
+    "predicted_params": {
+      "entityId": "urn:ngsi-ld:hwsensors:17038",
+      "type": "hwsensors",
+      "raw": false
+    },
+    "response_id": "resp_024e9ee3a04cce7b006a2ed4d70a6881a18879752ae94f38d2"
+  }
+]

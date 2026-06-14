@@ -1,0 +1,992 @@
+{
+  "summary": {
+    "predictions_file": "benchmarks/results/predictions_1781454039955.json",
+    "total": 20,
+    "tool_accuracy": 1,
+    "tool_argument_accuracy": 1,
+    "exact_tool_and_arguments_accuracy": 1,
+    "tool_correct": 20,
+    "tool_arguments_correct": 20,
+    "all_tool_level_correct": 20,
+    "normalization_cases": 6,
+    "normalization_accuracy": 1,
+    "normalization_correct": 6,
+    "answer_level_checks_required": {
+      "attr_checks": 16,
+      "field_checks": 1,
+      "behavior_checks": 4
+    },
+    "note": "This scorer evaluates tool selection and tool arguments only. Attribute, field, and behavior checks require a later answer-level benchmark phase."
+  },
+  "rows": [
+    {
+      "question_id": "Q01",
+      "expected_tool": "get_current_sensor",
+      "predicted_tool": "get_current_sensor",
+      "tool_correct": true,
+      "expected_params": {
+        "entityId": "urn:ngsi-ld:hwsensors:17038",
+        "type": "hwsensors",
+        "raw": false
+      },
+      "predicted_params": {
+        "entityId": "urn:ngsi-ld:hwsensors:17038",
+        "type": "hwsensors",
+        "raw": false
+      },
+      "tool_arguments_correct": true,
+      "param_checks": [
+        {
+          "key": "entityId",
+          "expected": "urn:ngsi-ld:hwsensors:17038",
+          "predicted": "urn:ngsi-ld:hwsensors:17038",
+          "correct": true
+        },
+        {
+          "key": "type",
+          "expected": "hwsensors",
+          "predicted": "hwsensors",
+          "correct": true
+        },
+        {
+          "key": "raw",
+          "expected": false,
+          "predicted": false,
+          "correct": true
+        }
+      ],
+      "requires_entity_id_normalization": false,
+      "expected_attrs": [
+        "airTemperature"
+      ],
+      "expected_fields": [],
+      "expected_behavior": null,
+      "answer_attr_check_required": true,
+      "answer_field_check_required": false,
+      "answer_behavior_check_required": false,
+      "answer_level_scoring_status": "not_evaluated_in_tool_selection_phase",
+      "all_tool_level_correct": true
+    },
+    {
+      "question_id": "Q02",
+      "expected_tool": "get_current_sensor",
+      "predicted_tool": "get_current_sensor",
+      "tool_correct": true,
+      "expected_params": {
+        "entityId": "urn:ngsi-ld:hwsensors:17038",
+        "type": "hwsensors",
+        "raw": false
+      },
+      "predicted_params": {
+        "entityId": "urn:ngsi-ld:hwsensors:17038",
+        "type": "hwsensors",
+        "raw": false
+      },
+      "tool_arguments_correct": true,
+      "param_checks": [
+        {
+          "key": "entityId",
+          "expected": "urn:ngsi-ld:hwsensors:17038",
+          "predicted": "urn:ngsi-ld:hwsensors:17038",
+          "correct": true
+        },
+        {
+          "key": "type",
+          "expected": "hwsensors",
+          "predicted": "hwsensors",
+          "correct": true
+        },
+        {
+          "key": "raw",
+          "expected": false,
+          "predicted": false,
+          "correct": true
+        }
+      ],
+      "requires_entity_id_normalization": false,
+      "expected_attrs": [
+        "relativeHumidity"
+      ],
+      "expected_fields": [],
+      "expected_behavior": null,
+      "answer_attr_check_required": true,
+      "answer_field_check_required": false,
+      "answer_behavior_check_required": false,
+      "answer_level_scoring_status": "not_evaluated_in_tool_selection_phase",
+      "all_tool_level_correct": true
+    },
+    {
+      "question_id": "Q03",
+      "expected_tool": "get_current_sensor",
+      "predicted_tool": "get_current_sensor",
+      "tool_correct": true,
+      "expected_params": {
+        "entityId": "urn:ngsi-ld:hwsensors:17038",
+        "type": "hwsensors",
+        "raw": false
+      },
+      "predicted_params": {
+        "entityId": "urn:ngsi-ld:hwsensors:17038",
+        "type": "hwsensors",
+        "raw": false
+      },
+      "tool_arguments_correct": true,
+      "param_checks": [
+        {
+          "key": "entityId",
+          "expected": "urn:ngsi-ld:hwsensors:17038",
+          "predicted": "urn:ngsi-ld:hwsensors:17038",
+          "correct": true
+        },
+        {
+          "key": "type",
+          "expected": "hwsensors",
+          "predicted": "hwsensors",
+          "correct": true
+        },
+        {
+          "key": "raw",
+          "expected": false,
+          "predicted": false,
+          "correct": true
+        }
+      ],
+      "requires_entity_id_normalization": true,
+      "expected_attrs": [
+        "co2"
+      ],
+      "expected_fields": [],
+      "expected_behavior": null,
+      "answer_attr_check_required": true,
+      "answer_field_check_required": false,
+      "answer_behavior_check_required": false,
+      "answer_level_scoring_status": "not_evaluated_in_tool_selection_phase",
+      "all_tool_level_correct": true
+    },
+    {
+      "question_id": "Q04",
+      "expected_tool": "get_current_sensor",
+      "predicted_tool": "get_current_sensor",
+      "tool_correct": true,
+      "expected_params": {
+        "entityId": "urn:ngsi-ld:hwsensors:17038",
+        "type": "hwsensors",
+        "raw": false
+      },
+      "predicted_params": {
+        "entityId": "urn:ngsi-ld:hwsensors:17038",
+        "type": "hwsensors",
+        "raw": false
+      },
+      "tool_arguments_correct": true,
+      "param_checks": [
+        {
+          "key": "entityId",
+          "expected": "urn:ngsi-ld:hwsensors:17038",
+          "predicted": "urn:ngsi-ld:hwsensors:17038",
+          "correct": true
+        },
+        {
+          "key": "type",
+          "expected": "hwsensors",
+          "predicted": "hwsensors",
+          "correct": true
+        },
+        {
+          "key": "raw",
+          "expected": false,
+          "predicted": false,
+          "correct": true
+        }
+      ],
+      "requires_entity_id_normalization": false,
+      "expected_attrs": [
+        "noiseLevel"
+      ],
+      "expected_fields": [],
+      "expected_behavior": null,
+      "answer_attr_check_required": true,
+      "answer_field_check_required": false,
+      "answer_behavior_check_required": false,
+      "answer_level_scoring_status": "not_evaluated_in_tool_selection_phase",
+      "all_tool_level_correct": true
+    },
+    {
+      "question_id": "Q05",
+      "expected_tool": "get_current_sensor",
+      "predicted_tool": "get_current_sensor",
+      "tool_correct": true,
+      "expected_params": {
+        "entityId": "urn:ngsi-ld:hwsensors:17038",
+        "type": "hwsensors",
+        "raw": false
+      },
+      "predicted_params": {
+        "entityId": "urn:ngsi-ld:hwsensors:17038",
+        "type": "hwsensors",
+        "raw": false
+      },
+      "tool_arguments_correct": true,
+      "param_checks": [
+        {
+          "key": "entityId",
+          "expected": "urn:ngsi-ld:hwsensors:17038",
+          "predicted": "urn:ngsi-ld:hwsensors:17038",
+          "correct": true
+        },
+        {
+          "key": "type",
+          "expected": "hwsensors",
+          "predicted": "hwsensors",
+          "correct": true
+        },
+        {
+          "key": "raw",
+          "expected": false,
+          "predicted": false,
+          "correct": true
+        }
+      ],
+      "requires_entity_id_normalization": false,
+      "expected_attrs": [
+        "pm25"
+      ],
+      "expected_fields": [],
+      "expected_behavior": null,
+      "answer_attr_check_required": true,
+      "answer_field_check_required": false,
+      "answer_behavior_check_required": false,
+      "answer_level_scoring_status": "not_evaluated_in_tool_selection_phase",
+      "all_tool_level_correct": true
+    },
+    {
+      "question_id": "Q06",
+      "expected_tool": "get_current_sensor",
+      "predicted_tool": "get_current_sensor",
+      "tool_correct": true,
+      "expected_params": {
+        "entityId": "urn:ngsi-ld:hwsensors:17038",
+        "type": "hwsensors",
+        "raw": false
+      },
+      "predicted_params": {
+        "entityId": "urn:ngsi-ld:hwsensors:17038",
+        "type": "hwsensors",
+        "raw": false
+      },
+      "tool_arguments_correct": true,
+      "param_checks": [
+        {
+          "key": "entityId",
+          "expected": "urn:ngsi-ld:hwsensors:17038",
+          "predicted": "urn:ngsi-ld:hwsensors:17038",
+          "correct": true
+        },
+        {
+          "key": "type",
+          "expected": "hwsensors",
+          "predicted": "hwsensors",
+          "correct": true
+        },
+        {
+          "key": "raw",
+          "expected": false,
+          "predicted": false,
+          "correct": true
+        }
+      ],
+      "requires_entity_id_normalization": true,
+      "expected_attrs": [
+        "pm10"
+      ],
+      "expected_fields": [],
+      "expected_behavior": null,
+      "answer_attr_check_required": true,
+      "answer_field_check_required": false,
+      "answer_behavior_check_required": false,
+      "answer_level_scoring_status": "not_evaluated_in_tool_selection_phase",
+      "all_tool_level_correct": true
+    },
+    {
+      "question_id": "Q07",
+      "expected_tool": "get_current_sensor",
+      "predicted_tool": "get_current_sensor",
+      "tool_correct": true,
+      "expected_params": {
+        "entityId": "urn:ngsi-ld:hwsensors:17038",
+        "type": "hwsensors",
+        "raw": false
+      },
+      "predicted_params": {
+        "entityId": "urn:ngsi-ld:hwsensors:17038",
+        "type": "hwsensors",
+        "raw": false
+      },
+      "tool_arguments_correct": true,
+      "param_checks": [
+        {
+          "key": "entityId",
+          "expected": "urn:ngsi-ld:hwsensors:17038",
+          "predicted": "urn:ngsi-ld:hwsensors:17038",
+          "correct": true
+        },
+        {
+          "key": "type",
+          "expected": "hwsensors",
+          "predicted": "hwsensors",
+          "correct": true
+        },
+        {
+          "key": "raw",
+          "expected": false,
+          "predicted": false,
+          "correct": true
+        }
+      ],
+      "requires_entity_id_normalization": false,
+      "expected_attrs": [
+        "tvoc"
+      ],
+      "expected_fields": [],
+      "expected_behavior": null,
+      "answer_attr_check_required": true,
+      "answer_field_check_required": false,
+      "answer_behavior_check_required": false,
+      "answer_level_scoring_status": "not_evaluated_in_tool_selection_phase",
+      "all_tool_level_correct": true
+    },
+    {
+      "question_id": "Q08",
+      "expected_tool": "get_current_sensor",
+      "predicted_tool": "get_current_sensor",
+      "tool_correct": true,
+      "expected_params": {
+        "entityId": "urn:ngsi-ld:hwsensors:17038",
+        "type": "hwsensors",
+        "raw": false
+      },
+      "predicted_params": {
+        "entityId": "urn:ngsi-ld:hwsensors:17038",
+        "type": "hwsensors",
+        "raw": false
+      },
+      "tool_arguments_correct": true,
+      "param_checks": [
+        {
+          "key": "entityId",
+          "expected": "urn:ngsi-ld:hwsensors:17038",
+          "predicted": "urn:ngsi-ld:hwsensors:17038",
+          "correct": true
+        },
+        {
+          "key": "type",
+          "expected": "hwsensors",
+          "predicted": "hwsensors",
+          "correct": true
+        },
+        {
+          "key": "raw",
+          "expected": false,
+          "predicted": false,
+          "correct": true
+        }
+      ],
+      "requires_entity_id_normalization": false,
+      "expected_attrs": [
+        "formaldehyde"
+      ],
+      "expected_fields": [],
+      "expected_behavior": null,
+      "answer_attr_check_required": true,
+      "answer_field_check_required": false,
+      "answer_behavior_check_required": false,
+      "answer_level_scoring_status": "not_evaluated_in_tool_selection_phase",
+      "all_tool_level_correct": true
+    },
+    {
+      "question_id": "Q09",
+      "expected_tool": "get_current_sensor",
+      "predicted_tool": "get_current_sensor",
+      "tool_correct": true,
+      "expected_params": {
+        "entityId": "urn:ngsi-ld:hwsensors:17038",
+        "type": "hwsensors",
+        "raw": false
+      },
+      "predicted_params": {
+        "entityId": "urn:ngsi-ld:hwsensors:17038",
+        "type": "hwsensors",
+        "raw": false
+      },
+      "tool_arguments_correct": true,
+      "param_checks": [
+        {
+          "key": "entityId",
+          "expected": "urn:ngsi-ld:hwsensors:17038",
+          "predicted": "urn:ngsi-ld:hwsensors:17038",
+          "correct": true
+        },
+        {
+          "key": "type",
+          "expected": "hwsensors",
+          "predicted": "hwsensors",
+          "correct": true
+        },
+        {
+          "key": "raw",
+          "expected": false,
+          "predicted": false,
+          "correct": true
+        }
+      ],
+      "requires_entity_id_normalization": true,
+      "expected_attrs": [
+        "barometricPressure"
+      ],
+      "expected_fields": [],
+      "expected_behavior": null,
+      "answer_attr_check_required": true,
+      "answer_field_check_required": false,
+      "answer_behavior_check_required": false,
+      "answer_level_scoring_status": "not_evaluated_in_tool_selection_phase",
+      "all_tool_level_correct": true
+    },
+    {
+      "question_id": "Q10",
+      "expected_tool": "get_current_sensor",
+      "predicted_tool": "get_current_sensor",
+      "tool_correct": true,
+      "expected_params": {
+        "entityId": "urn:ngsi-ld:hwsensors:17038",
+        "type": "hwsensors",
+        "raw": false
+      },
+      "predicted_params": {
+        "entityId": "urn:ngsi-ld:hwsensors:17038",
+        "type": "hwsensors",
+        "raw": false
+      },
+      "tool_arguments_correct": true,
+      "param_checks": [
+        {
+          "key": "entityId",
+          "expected": "urn:ngsi-ld:hwsensors:17038",
+          "predicted": "urn:ngsi-ld:hwsensors:17038",
+          "correct": true
+        },
+        {
+          "key": "type",
+          "expected": "hwsensors",
+          "predicted": "hwsensors",
+          "correct": true
+        },
+        {
+          "key": "raw",
+          "expected": false,
+          "predicted": false,
+          "correct": true
+        }
+      ],
+      "requires_entity_id_normalization": false,
+      "expected_attrs": [
+        "light"
+      ],
+      "expected_fields": [],
+      "expected_behavior": null,
+      "answer_attr_check_required": true,
+      "answer_field_check_required": false,
+      "answer_behavior_check_required": false,
+      "answer_level_scoring_status": "not_evaluated_in_tool_selection_phase",
+      "all_tool_level_correct": true
+    },
+    {
+      "question_id": "Q11",
+      "expected_tool": "get_current_sensor",
+      "predicted_tool": "get_current_sensor",
+      "tool_correct": true,
+      "expected_params": {
+        "entityId": "urn:ngsi-ld:hwsensors:17038",
+        "type": "hwsensors",
+        "raw": false
+      },
+      "predicted_params": {
+        "entityId": "urn:ngsi-ld:hwsensors:17038",
+        "type": "hwsensors",
+        "raw": false
+      },
+      "tool_arguments_correct": true,
+      "param_checks": [
+        {
+          "key": "entityId",
+          "expected": "urn:ngsi-ld:hwsensors:17038",
+          "predicted": "urn:ngsi-ld:hwsensors:17038",
+          "correct": true
+        },
+        {
+          "key": "type",
+          "expected": "hwsensors",
+          "predicted": "hwsensors",
+          "correct": true
+        },
+        {
+          "key": "raw",
+          "expected": false,
+          "predicted": false,
+          "correct": true
+        }
+      ],
+      "requires_entity_id_normalization": false,
+      "expected_attrs": [
+        "battery"
+      ],
+      "expected_fields": [],
+      "expected_behavior": null,
+      "answer_attr_check_required": true,
+      "answer_field_check_required": false,
+      "answer_behavior_check_required": false,
+      "answer_level_scoring_status": "not_evaluated_in_tool_selection_phase",
+      "all_tool_level_correct": true
+    },
+    {
+      "question_id": "Q12",
+      "expected_tool": "get_current_sensor",
+      "predicted_tool": "get_current_sensor",
+      "tool_correct": true,
+      "expected_params": {
+        "entityId": "urn:ngsi-ld:hwsensors:17038",
+        "type": "hwsensors",
+        "raw": false
+      },
+      "predicted_params": {
+        "entityId": "urn:ngsi-ld:hwsensors:17038",
+        "type": "hwsensors",
+        "raw": false
+      },
+      "tool_arguments_correct": true,
+      "param_checks": [
+        {
+          "key": "entityId",
+          "expected": "urn:ngsi-ld:hwsensors:17038",
+          "predicted": "urn:ngsi-ld:hwsensors:17038",
+          "correct": true
+        },
+        {
+          "key": "type",
+          "expected": "hwsensors",
+          "predicted": "hwsensors",
+          "correct": true
+        },
+        {
+          "key": "raw",
+          "expected": false,
+          "predicted": false,
+          "correct": true
+        }
+      ],
+      "requires_entity_id_normalization": true,
+      "expected_attrs": [
+        "rssi"
+      ],
+      "expected_fields": [],
+      "expected_behavior": null,
+      "answer_attr_check_required": true,
+      "answer_field_check_required": false,
+      "answer_behavior_check_required": false,
+      "answer_level_scoring_status": "not_evaluated_in_tool_selection_phase",
+      "all_tool_level_correct": true
+    },
+    {
+      "question_id": "Q13",
+      "expected_tool": "get_current_sensor",
+      "predicted_tool": "get_current_sensor",
+      "tool_correct": true,
+      "expected_params": {
+        "entityId": "urn:ngsi-ld:hwsensors:17038",
+        "type": "hwsensors",
+        "raw": false
+      },
+      "predicted_params": {
+        "entityId": "urn:ngsi-ld:hwsensors:17038",
+        "type": "hwsensors",
+        "raw": false
+      },
+      "tool_arguments_correct": true,
+      "param_checks": [
+        {
+          "key": "entityId",
+          "expected": "urn:ngsi-ld:hwsensors:17038",
+          "predicted": "urn:ngsi-ld:hwsensors:17038",
+          "correct": true
+        },
+        {
+          "key": "type",
+          "expected": "hwsensors",
+          "predicted": "hwsensors",
+          "correct": true
+        },
+        {
+          "key": "raw",
+          "expected": false,
+          "predicted": false,
+          "correct": true
+        }
+      ],
+      "requires_entity_id_normalization": false,
+      "expected_attrs": [
+        "co2",
+        "pm25",
+        "pm10",
+        "tvoc",
+        "formaldehyde"
+      ],
+      "expected_fields": [],
+      "expected_behavior": null,
+      "answer_attr_check_required": true,
+      "answer_field_check_required": false,
+      "answer_behavior_check_required": false,
+      "answer_level_scoring_status": "not_evaluated_in_tool_selection_phase",
+      "all_tool_level_correct": true
+    },
+    {
+      "question_id": "Q14",
+      "expected_tool": "get_current_sensor",
+      "predicted_tool": "get_current_sensor",
+      "tool_correct": true,
+      "expected_params": {
+        "entityId": "urn:ngsi-ld:hwsensors:17038",
+        "type": "hwsensors",
+        "raw": false
+      },
+      "predicted_params": {
+        "entityId": "urn:ngsi-ld:hwsensors:17038",
+        "type": "hwsensors",
+        "raw": false
+      },
+      "tool_arguments_correct": true,
+      "param_checks": [
+        {
+          "key": "entityId",
+          "expected": "urn:ngsi-ld:hwsensors:17038",
+          "predicted": "urn:ngsi-ld:hwsensors:17038",
+          "correct": true
+        },
+        {
+          "key": "type",
+          "expected": "hwsensors",
+          "predicted": "hwsensors",
+          "correct": true
+        },
+        {
+          "key": "raw",
+          "expected": false,
+          "predicted": false,
+          "correct": true
+        }
+      ],
+      "requires_entity_id_normalization": false,
+      "expected_attrs": [
+        "airTemperature",
+        "relativeHumidity",
+        "co2",
+        "pm25",
+        "battery"
+      ],
+      "expected_fields": [],
+      "expected_behavior": "current_state_snapshot",
+      "answer_attr_check_required": true,
+      "answer_field_check_required": false,
+      "answer_behavior_check_required": true,
+      "answer_level_scoring_status": "not_evaluated_in_tool_selection_phase",
+      "all_tool_level_correct": true
+    },
+    {
+      "question_id": "Q15",
+      "expected_tool": "get_current_sensor",
+      "predicted_tool": "get_current_sensor",
+      "tool_correct": true,
+      "expected_params": {
+        "entityId": "urn:ngsi-ld:hwsensors:17038",
+        "type": "hwsensors",
+        "raw": false
+      },
+      "predicted_params": {
+        "entityId": "urn:ngsi-ld:hwsensors:17038",
+        "type": "hwsensors",
+        "raw": false
+      },
+      "tool_arguments_correct": true,
+      "param_checks": [
+        {
+          "key": "entityId",
+          "expected": "urn:ngsi-ld:hwsensors:17038",
+          "predicted": "urn:ngsi-ld:hwsensors:17038",
+          "correct": true
+        },
+        {
+          "key": "type",
+          "expected": "hwsensors",
+          "predicted": "hwsensors",
+          "correct": true
+        },
+        {
+          "key": "raw",
+          "expected": false,
+          "predicted": false,
+          "correct": true
+        }
+      ],
+      "requires_entity_id_normalization": false,
+      "expected_attrs": [],
+      "expected_fields": [
+        "observedAt",
+        "measurements"
+      ],
+      "expected_behavior": null,
+      "answer_attr_check_required": false,
+      "answer_field_check_required": true,
+      "answer_behavior_check_required": false,
+      "answer_level_scoring_status": "not_evaluated_in_tool_selection_phase",
+      "all_tool_level_correct": true
+    },
+    {
+      "question_id": "Q16",
+      "expected_tool": "get_current_sensor",
+      "predicted_tool": "get_current_sensor",
+      "tool_correct": true,
+      "expected_params": {
+        "entityId": "urn:ngsi-ld:hwsensors:17038",
+        "type": "hwsensors",
+        "raw": false
+      },
+      "predicted_params": {
+        "entityId": "urn:ngsi-ld:hwsensors:17038",
+        "type": "hwsensors",
+        "raw": false
+      },
+      "tool_arguments_correct": true,
+      "param_checks": [
+        {
+          "key": "entityId",
+          "expected": "urn:ngsi-ld:hwsensors:17038",
+          "predicted": "urn:ngsi-ld:hwsensors:17038",
+          "correct": true
+        },
+        {
+          "key": "type",
+          "expected": "hwsensors",
+          "predicted": "hwsensors",
+          "correct": true
+        },
+        {
+          "key": "raw",
+          "expected": false,
+          "predicted": false,
+          "correct": true
+        }
+      ],
+      "requires_entity_id_normalization": false,
+      "expected_attrs": [],
+      "expected_fields": [],
+      "expected_behavior": "infer_activity_from_recent_observedAt",
+      "answer_attr_check_required": false,
+      "answer_field_check_required": false,
+      "answer_behavior_check_required": true,
+      "answer_level_scoring_status": "not_evaluated_in_tool_selection_phase",
+      "all_tool_level_correct": true
+    },
+    {
+      "question_id": "Q17",
+      "expected_tool": "get_current_sensor",
+      "predicted_tool": "get_current_sensor",
+      "tool_correct": true,
+      "expected_params": {
+        "entityId": "urn:ngsi-ld:hwsensors:17038",
+        "type": "hwsensors",
+        "raw": false
+      },
+      "predicted_params": {
+        "entityId": "urn:ngsi-ld:hwsensors:17038",
+        "type": "hwsensors",
+        "raw": false
+      },
+      "tool_arguments_correct": true,
+      "param_checks": [
+        {
+          "key": "entityId",
+          "expected": "urn:ngsi-ld:hwsensors:17038",
+          "predicted": "urn:ngsi-ld:hwsensors:17038",
+          "correct": true
+        },
+        {
+          "key": "type",
+          "expected": "hwsensors",
+          "predicted": "hwsensors",
+          "correct": true
+        },
+        {
+          "key": "raw",
+          "expected": false,
+          "predicted": false,
+          "correct": true
+        }
+      ],
+      "requires_entity_id_normalization": true,
+      "expected_attrs": [
+        "airTemperature",
+        "relativeHumidity",
+        "barometricPressure",
+        "light",
+        "noiseLevel"
+      ],
+      "expected_fields": [],
+      "expected_behavior": null,
+      "answer_attr_check_required": true,
+      "answer_field_check_required": false,
+      "answer_behavior_check_required": false,
+      "answer_level_scoring_status": "not_evaluated_in_tool_selection_phase",
+      "all_tool_level_correct": true
+    },
+    {
+      "question_id": "Q18",
+      "expected_tool": "get_current_sensor",
+      "predicted_tool": "get_current_sensor",
+      "tool_correct": true,
+      "expected_params": {
+        "entityId": "urn:ngsi-ld:hwsensors:17038",
+        "type": "hwsensors",
+        "raw": false
+      },
+      "predicted_params": {
+        "entityId": "urn:ngsi-ld:hwsensors:17038",
+        "type": "hwsensors",
+        "raw": false
+      },
+      "tool_arguments_correct": true,
+      "param_checks": [
+        {
+          "key": "entityId",
+          "expected": "urn:ngsi-ld:hwsensors:17038",
+          "predicted": "urn:ngsi-ld:hwsensors:17038",
+          "correct": true
+        },
+        {
+          "key": "type",
+          "expected": "hwsensors",
+          "predicted": "hwsensors",
+          "correct": true
+        },
+        {
+          "key": "raw",
+          "expected": false,
+          "predicted": false,
+          "correct": true
+        }
+      ],
+      "requires_entity_id_normalization": false,
+      "expected_attrs": [
+        "airTemperature",
+        "relativeHumidity",
+        "co2"
+      ],
+      "expected_fields": [],
+      "expected_behavior": null,
+      "answer_attr_check_required": true,
+      "answer_field_check_required": false,
+      "answer_behavior_check_required": false,
+      "answer_level_scoring_status": "not_evaluated_in_tool_selection_phase",
+      "all_tool_level_correct": true
+    },
+    {
+      "question_id": "Q19",
+      "expected_tool": "get_current_sensor",
+      "predicted_tool": "get_current_sensor",
+      "tool_correct": true,
+      "expected_params": {
+        "entityId": "urn:ngsi-ld:hwsensors:17038",
+        "type": "hwsensors",
+        "raw": false
+      },
+      "predicted_params": {
+        "entityId": "urn:ngsi-ld:hwsensors:17038",
+        "type": "hwsensors",
+        "raw": false
+      },
+      "tool_arguments_correct": true,
+      "param_checks": [
+        {
+          "key": "entityId",
+          "expected": "urn:ngsi-ld:hwsensors:17038",
+          "predicted": "urn:ngsi-ld:hwsensors:17038",
+          "correct": true
+        },
+        {
+          "key": "type",
+          "expected": "hwsensors",
+          "predicted": "hwsensors",
+          "correct": true
+        },
+        {
+          "key": "raw",
+          "expected": false,
+          "predicted": false,
+          "correct": true
+        }
+      ],
+      "requires_entity_id_normalization": false,
+      "expected_attrs": [],
+      "expected_fields": [],
+      "expected_behavior": "current_state_snapshot",
+      "answer_attr_check_required": false,
+      "answer_field_check_required": false,
+      "answer_behavior_check_required": true,
+      "answer_level_scoring_status": "not_evaluated_in_tool_selection_phase",
+      "all_tool_level_correct": true
+    },
+    {
+      "question_id": "Q20",
+      "expected_tool": "get_current_sensor",
+      "predicted_tool": "get_current_sensor",
+      "tool_correct": true,
+      "expected_params": {
+        "entityId": "urn:ngsi-ld:hwsensors:17038",
+        "type": "hwsensors",
+        "raw": false
+      },
+      "predicted_params": {
+        "entityId": "urn:ngsi-ld:hwsensors:17038",
+        "type": "hwsensors",
+        "raw": false
+      },
+      "tool_arguments_correct": true,
+      "param_checks": [
+        {
+          "key": "entityId",
+          "expected": "urn:ngsi-ld:hwsensors:17038",
+          "predicted": "urn:ngsi-ld:hwsensors:17038",
+          "correct": true
+        },
+        {
+          "key": "type",
+          "expected": "hwsensors",
+          "predicted": "hwsensors",
+          "correct": true
+        },
+        {
+          "key": "raw",
+          "expected": false,
+          "predicted": false,
+          "correct": true
+        }
+      ],
+      "requires_entity_id_normalization": true,
+      "expected_attrs": [],
+      "expected_fields": [],
+      "expected_behavior": "current_state_summary",
+      "answer_attr_check_required": false,
+      "answer_field_check_required": false,
+      "answer_behavior_check_required": true,
+      "answer_level_scoring_status": "not_evaluated_in_tool_selection_phase",
+      "all_tool_level_correct": true
+    }
+  ]
+}
